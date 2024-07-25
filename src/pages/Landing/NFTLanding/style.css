@@ -1,0 +1,36 @@
+.header_landing {
+  background: linear-gradient(rgba(75, 83, 32, 1), rgba(75, 83, 32, 0));
+  left: 0;
+  min-height: 110px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 0.15s;
+  z-index: 10;
+}
+
+.costum_section:after {
+  background: linear-gradient(rgba(75, 83, 32, 1), rgba(75, 83, 32, 0));
+  bottom: 0;
+  content: "";
+  left: 0;
+  /* position: absolute; */
+  right: 0;
+  top: 0;
+}
+.header-view__main-layout {
+  display: flex;
+  flex-shrink: 2;
+  z-index: 350;
+  min-width: 416px;
+  transition: transform 0.2s ease-in-out;
+}
+.header-view__form-layout {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 352px;
+  max-width: 352px;
+  transition: min-width 0.1s ease-in-out, max-width 0.1s ease-in-out;
+  pointer-events: auto;
+}

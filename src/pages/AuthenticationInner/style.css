@@ -1,0 +1,49 @@
+.auth-login-army {
+  background-image: url("../../assets/images/fon.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+.login__wrapper:hover {
+  border: 1px solid #eee;
+  box-shadow: 0 0 20px #27374d;
+  border-radius: var(--vz-card-border-radius);
+}
+.login__wrapper h5 {
+  color: #27374d !important;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.btn-army {
+  background: #27374d;
+  border: none;
+}
+.btn-army:hover {
+  background: #27374d;
+  border: none;
+}
+.btn-army.btn.btn-secondary {
+  background: #27374d;
+  border: none;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+video.overlay {
+  background: #000;
+  opacity: 20;
+}
+.auth-page-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.login_wrap_center {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

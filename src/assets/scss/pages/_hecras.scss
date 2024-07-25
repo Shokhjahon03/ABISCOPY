@@ -1,0 +1,107 @@
+.hecras{
+    width: 100%;
+    // padding-top: 125px;
+    height: 100dvh;
+    padding-left: 16px;
+    padding-bottom: 28px;
+    padding-right: 17px;
+    padding: 0px 17px 28px 16px;
+}
+.hecras__container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // overflow-y: scroll;
+}
+.hecras__container__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px #9DB2BF solid;
+    padding-bottom: 11px;
+}
+.buttons__group{
+    max-width: 314px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.buttons__group button{
+    max-width: 93px;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: 0.5px;
+    color: white;
+}
+.buttons__group button:hover{
+    background-color:white ;
+    color: #27374D;
+    transition: 0.3s;
+    border-bottom: solid;
+}
+// .buttons__group:nth-child(1){
+//     background-color: #FE891D;
+//     color: white;
+// }
+.button_export{
+    background-color: #FE891D;
+}
+.button_add{
+    background-color: #27374D;
+}
+.button_delete{
+    background-color: #CE2028;
+}
+.hecras__container__datas{
+   width: 100%;
+   margin-top: 13.03px; 
+   overflow-x: scroll;
+   overflow-y: scroll;
+   padding-bottom: 200px;
+}
+table , th, td{
+    border: 1px solid #BFC7CF;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.thSellect{
+    max-width: 70px;
+    padding: 7px 29px 6px 21px;
+}
+.settingscol{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.settingscol button{
+    border: none;
+    background-color: inherit;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+// .settingscol button:hover{
+//     border: 0.5px solid rgb(89, 87, 87);
+// }
+.sellection{
+    border: none;
+    background-color: #F2F7FA;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.graficButton:hover{
+        background-color: #9DB2BF;
+        color: white;
+}
